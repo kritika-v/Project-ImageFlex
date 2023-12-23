@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Image Search Engine</h1>
+    <form id="search-form">
+        <input type="text" id="search-box" placeholder="Search for images...">
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="search-result" class="image-container"></div>
+    <button id="show-more-btn">Show more</button>
+
+    <div id="image-details" class="image-details">
+        <h2>Image Details</h2>
+        <p id="image-title"></p>
+        <img id="image-details-src" src="" alt="Image details">
+        <button id="favorite-btn">Favorite</button>
+        <button id="close-details-btn">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
